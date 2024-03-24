@@ -106,4 +106,4 @@ class APIDescription(Resource):
 api.add_resource(APIDescription, '/')
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
