@@ -1,0 +1,9 @@
+test_apiDescription (__main__.TestAPIEndpoints.test_apiDescription) ... ok
+test_getProducts (__main__.TestAPIEndpoints.test_getProducts) ... ok
+test_getTitles (__main__.TestAPIEndpoints.test_getTitles) ... ok
+test_insertProduct (__main__.TestAPIEndpoints.test_insertProduct) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.292s
+
+OK

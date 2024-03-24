@@ -1,0 +1,17 @@
+test_apiDescription (__main__.TestAPIEndpoints.test_apiDescription) ... ok
+test_getProducts (__main__.TestAPIEndpoints.test_getProducts) ... ok
+test_getTitles (__main__.TestAPIEndpoints.test_getTitles) ... ok
+test_insertProduct (__main__.TestAPIEndpoints.test_insertProduct) ... FAIL
+
+======================================================================
+FAIL: test_insertProduct (__main__.TestAPIEndpoints.test_insertProduct)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\paulj\OneDrive\Desktop\WS-2024\AssignmentUnitTest.py", line 40, in test_insertProduct
+    self.assertEqual(response.status_code, 201)
+AssertionError: 401 != 201
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.227s
+
+FAILED (failures=1)
