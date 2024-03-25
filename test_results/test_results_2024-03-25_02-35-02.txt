@@ -1,0 +1,17 @@
+test_apiDescription (__main__.TestAPIEndpoints.test_apiDescription) ... ok
+test_getProducts (__main__.TestAPIEndpoints.test_getProducts) ... ok
+test_getTitles (__main__.TestAPIEndpoints.test_getTitles) ... FAIL
+test_insertProduct (__main__.TestAPIEndpoints.test_insertProduct) ... ok
+
+======================================================================
+FAIL: test_getTitles (__main__.TestAPIEndpoints.test_getTitles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\paulj\OneDrive\Desktop\WS-2024\AssignmentUnitTest.py", line 35, in test_getTitles
+    self.assertIn('title', title)
+AssertionError: 'title' not found in 'product'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.223s
+
+FAILED (failures=1)

@@ -17,6 +17,13 @@ class TestAPIEndpoints(unittest.TestCase):
         url = self.base_url + "/getProducts"
         response = requests.get(url)
         self.assertEqual(response.status_code, 200)
+        
+        products = response.json()
+        for product in products:
+            self.assertIn('ProductId', product)
+            self.assertIn('Title', product)
+            self.assertIn('Price', product)
+            self.assertIn('Quantity', product)
 
     def test_getTitles(self):
         url = self.base_url + "/getTitles"
